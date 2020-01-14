@@ -1,5 +1,5 @@
 class CuckoosController < ApplicationController
-  before_filter :find_project_by_project_id ,:authorize
+  before_action :find_project_by_project_id ,:authorize
   include CuckoosHelper
 
   def index

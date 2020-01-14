@@ -1,4 +1,4 @@
-class CreateCuckoos < ActiveRecord::Migration
+class CreateCuckoos < ActiveRecord::Migration[4.2]
   def change
     create_table :cuckoos do |t|
       t.integer :project_id
